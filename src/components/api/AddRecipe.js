@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Modal from "react-modal";
 
 import "./AddRecipe.css";
 
@@ -19,6 +18,7 @@ const AddRecipe = () => {
 
   useEffect(() => {
     getMeals();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [theOne]);
 
   //   useEffect(() => {

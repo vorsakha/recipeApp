@@ -12,6 +12,8 @@ const RecipePage = ({ meal, setIsOpen, modalIsOpen }) => {
   useEffect(() => {
     getIngredients();
     getMeasurements();
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const getIngredients = () => {
