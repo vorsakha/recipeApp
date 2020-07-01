@@ -1,0 +1,79 @@
+.my-container {
+  width: 100vw;
+  max-width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.my-recipes {
+  width: 200px;
+  margin: 10px;
+  color: teal;
+}
+
+.img-div {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  background-size: 100% 100%;
+  text-align: end;
+}
+
+.trash {
+  margin: 10px;
+  border: 0;
+  background-color: transparent;
+  color: rgb(255, 56, 21);
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.overlay {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  background-color: rgba(25, 25, 112, 0.8);
+}
+
+.trash:hover {
+  color: tomato;
+}
+
+.my-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.title {
+  display: inline-flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.recipe-btn {
+  background-color: transparent;
+  color: teal;
+  border: 0;
+  cursor: pointer;
+}
+
+.recipe-btn:hover {
+  color: rgb(0, 173, 173);
+}
+
+.danger-btn {
+  background-color: rgb(255, 56, 21);
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: midnightblue;
+}
+
+.danger-btn:hover {
+  background-color: tomato;
+}

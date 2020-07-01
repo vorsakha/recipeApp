@@ -1,0 +1,44 @@
+.add-recipe {
+  display: flex;
+  width: 100%;
+  max-width: 766px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cat-btn {
+  background-color: transparent;
+  border: 0;
+  margin: 10px;
+  cursor: pointer;
+  color: inherit;
+  font-weight: bold;
+  text-align: start;
+}
+
+.center-text {
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  margin: 10px;
+  cursor: pointer;
+  color: inherit;
+  font-weight: bold;
+}
+
+.cat-btn > img {
+  width: 100px;
+  height: 100px;
+}
+
+.add-recipe > ul {
+  margin: 0 auto;
+}
